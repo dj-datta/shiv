@@ -11,10 +11,13 @@ spec:
         protocol: TCP
         containerPort: 80
     - name: my-second-container
-    image: nginx
-    ports:
-      - name: http
-        protocol: TCP
-        containerPort: 8080
+      image: nginx
+      ports:
+       - name: http
+         protocol: TCP
+         containerPort: 8080
+         
+
+         
         
         
